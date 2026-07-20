@@ -1,17 +1,10 @@
 {
   "version": 2,
   "name": "hotel-richa",
-  "public": true,
   "builds": [
     {
       "src": "index.html",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
